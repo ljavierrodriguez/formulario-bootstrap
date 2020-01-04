@@ -1,0 +1,27 @@
+/* Imports */
+@import url(./normalize.css);
+@import url(./bootstrap.css);
+
+/* Fonts */
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{background: #DDD;}
+
+main {
+    width: 70%;
+    background: #fff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+main footer{margin-top: 15px;}
+
+.author{
+    text-transform: capitalize;
+}
